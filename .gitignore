@@ -1,19 +1,25 @@
-# Byte-compiled / optimized / DLL files
+# Generated site files
+public/
+
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
 
-# Environment / virtualenv
-.env/
+# Virtual environments
 venv/
 env/
+ENV/
 
-# VS Code settings
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# macOS files
+# OS files
 .DS_Store
-
-# Logs
-*.log
-
+Thumbs.db
